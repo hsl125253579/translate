@@ -2,11 +2,11 @@ const fs = require('fs');
 const path = require("path");
 //request
 //请求 谷歌翻译 接口
-const request = require(path.resolve("./utils/requestCoogle.js"));
+const request = require(path.resolve(__dirname,"./utils/requestCoogle.js"));
 // TL 计算谷歌翻译 tk值
-const TL = require(path.resolve("./utils/TL.js"))
-const readjson = require(path.resolve("./utils/readjson.js"));
-const translateUrl = require(path.resolve("./utils/translateUrl.js"));
+const TL = require(path.resolve(__dirname,"./utils/TL.js"))
+const readjson = require(path.resolve(__dirname,"./utils/readjson.js"));
+const translateUrl = require(path.resolve(__dirname,"./utils/translateUrl.js"));
 
 
 let translate = async (file, lang) => {

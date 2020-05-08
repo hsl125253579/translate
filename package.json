@@ -1,0 +1,24 @@
+{
+  "name": "watch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsl125253579/translate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hsl125253579/translate/issues"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "request": "^2.88.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "homepage": "https://github.com/hsl125253579/translate#readme"
+}

@@ -17,10 +17,12 @@ let myrequest = function(url) {
     setTimeout(function() {
       request(url, (error, response, body) => {
         if (error) {
-          console.log(error)
-          reject(error);
+          console.log(456)
+          reject('error');
+        }else{
+          resolve(JSON.parse(body)[0][0][0]);
         }
-        resolve(JSON.parse(body)[0][0][0]);
+        
       });
     }, randomNumber());
   });
